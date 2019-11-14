@@ -1,7 +1,7 @@
 <?php 
 use Restserver \Libraries\REST_Controller ; 
 
-Class User extends REST_Controller{
+Class Vehicle extends REST_Controller{
     public function __construct(){ 
         header('Access-Control-Allow-Origin: *'); 
         header("Access-Control-Allow-Methods: GET, OPTIONS, POST, DELETE"); 
